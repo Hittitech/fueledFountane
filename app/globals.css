@@ -20,6 +20,10 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background:rgb(52, 49, 49)
+  background:rgb(0, 0, 0)
     
+}
+.bg-gradient-trapezoid-cyan {
+  background: linear-gradient(160deg, transparent 25%, white 45%, cyan 75%, transparent 40%);
+  
 }

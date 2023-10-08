@@ -9,7 +9,7 @@ const ImageGallery = () => {
     <div className="  justify-between align-middle my-auto py-0">
       <div className="container justify-between my-auto px-4">
         <div className="">
-          <div className="flex justify-between align-middle my-auto space-x-4">
+          <div className="flex justify-between  overflow-hidden my-auto space-x-4">
             {Array.from({ length: endImageNumber - startImageNumber + 1 }).map(
               (_, index) => (
                 <div
@@ -17,10 +17,10 @@ const ImageGallery = () => {
                   className=""
                 >
                   <Image
-                    className=' font-bold my-auto'
+                    className=' font-bold my-auto text-center'
                     src={`/../image${index + startImageNumber}.png`}
                     alt={`Image ${index + startImageNumber}`}
-                    width={40} 
+                    width={70} 
                     height={20}
                   />
                 </div>

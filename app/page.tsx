@@ -10,12 +10,12 @@ export default function Home() {
           <div className="navbar md:px-8 py-3 flex justify-between">
             <div className="justify-center align-middle my-auto">
               <Link href="#">
-                <Image src="/../image 1.png" width="100" height="20" alt="" />
+                <Image src="/public/image 1.png" width="100" height="20" alt="" />
               </Link>
             </div>
 
             <div className="md:px-10 md:mx-12 flex space-x-8 text-white my-auto">
-              <nav>products</nav>
+              <nav>products </nav>
               <nav>dao</nav>
               <nav>builds</nav>
               <nav>docs</nav>

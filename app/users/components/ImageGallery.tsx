@@ -18,7 +18,7 @@ const ImageGallery = () => {
                 >
                   <Image
                     className=' font-bold my-auto text-center'
-                    src={`/../image${index + startImageNumber}.png`}
+                    src={`/public/image${index + startImageNumber}.png`}
                     alt={`Image ${index + startImageNumber}`}
                     width={70} 
                     height={20}

@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 const UsersPage = () => {
   return (
-    <div className= ' pt-4  text-white flex flex-col m-auto justify-center text-center text-4xl '>
+    <div className= ' pt-4   text-white flex flex-col w-auto justify-center text-center text-4xl '>
       <h1 className=' bg-[#64AE9D] text-black text-center'>Fueled Fountane</h1> 
 
       <div>

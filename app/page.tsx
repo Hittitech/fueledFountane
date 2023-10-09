@@ -4,7 +4,7 @@ import ImageGallery from './users/components/ImageGallery';
 
 export default function Home() {
   return (
-    <main className="w-full md:w-3/4 mx-auto text-center font-'Poppins'">
+    <div className="w-full md:w-3/4 mx-auto text-center font-'Poppins'">
       <div>
         <div className="mx-2 md:mx-12  border-gray-950 bg-black-400 h-auto md:h-full mt-6 rounded-full bg-black-700 border-2">
           <div className="navbar md:px-8 py-3 flex justify-between">
@@ -45,7 +45,6 @@ export default function Home() {
           <p className="tracking-wide space-y-4 px-2 md:px-12 py-4 text-3xl md:text-5xl text-white">
             the next generation of
             <br/>
-            <div className='w-10'></div>
             <span className="tracking-wide font-serif italic">
               defi governance
             </span>
@@ -71,6 +70,6 @@ export default function Home() {
           <ImageGallery />
         </div>
       </div>
-    </main>
+    </div>
   );
 }
